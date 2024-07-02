@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playwrite DE Grund", cursive;
+  color: #FFFFFA;
+}
+
+body{
+  background: #08090A;
+}
+
+header{
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  z-index: 1000; 
+}
+
+.navbar{
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+
+.navbar li {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 7px;
+  transition: 0.3s ease-in-out;
+  border-bottom: 4px solid #08090A;
+  /*border-left: 2px solid #08090A;
+  border-right: 2px solid #08090A;
+  border-top: 1px solid #08090A;*/
+}
+
+.navbar li:hover {
+  border-bottom: 4px solid #BA1200;
+  /*border-left: 2px solid #BA1200;
+  border-right: 2px solid #BA1200;
+  border-top: 1px solid #BA1200;*/
+  /*background: #BA1200;
+  box-shadow: 0 0 60px #BA1200;*/
+}
+
+.navbar li a{
+  text-decoration: none;
+}
+
+.buttons{
+  display: flex;
+  gap: 20px;
+}
+
+.buttons button{
+  background: #BA1200;
+  padding: 10px;
+  border: none; 
+  border-radius: 25px;
+  box-shadow: -2px 2px 5px #FFFFFA;
+  transition: 0.2s ease-in;
+  border-bottom: 4px solid ;
+
+}
+
+.buttons button:hover{
+  background: #00BA89;
+}
+
+.buttons button:nth-child(2):hover{
+  background: #6320EE;
+}
+
+.home-page{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  height: 90vh;
+  margin: auto;
+  padding: 0 100px;
+}
+
+.description{
+  max-width: 700px;
+  padding-bottom: 20vh;
+}
+
+.first-line{
+  font-size: 2rem;
+  line-height: 80px;
+  margin-bottom: 40px;
+}
+
+.first-line h1{
+  font-size: 4rem;
+  line-height: 70px;
+  margin-bottom: 40px;
+  color: #BA1200;
+  text-shadow: -10px 10px 20px #BA1200;
+}
+
+.card {
+  width: 400px;
+  height: 500px;
+  transition: all 0.4s;
+  border-radius: 10px;
+  border-radius: 30px;
+  box-shadow:  -10px 10px 20px  #BA1200;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px 5px  #BA1200;
+  background: #BA1200;
+}
+
+.first-content {
+  background: url(../public/photo\ de\ profil.png) center center/cover;
+  height: 100%;
+  width: 100%;
+  transition: all 0.3s ease-in;
+  opacity: 1;
+  border-radius: 30px;
+}
+
+.card:hover .first-content {
+  height: 0%;
+  opacity: 0;
+}
+
+.second-content {
+  height: 0%;
+  width: 100%;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.4s ease-out;
+  font-size: 0px;
+  transform: rotate(90deg) scale(-1);
+}
+
+.card:hover .second-content {
+  opacity: 1;
+  height: 100%;
+  font-size: 1.8rem;
+  transform: rotate(0deg);
+}
+
+
+.icons i{
+  margin: 10px 10px;
+  font-size: 1.8rem;
+  transition: 0.3s ease-out;
+}
+
+.icons i:hover{
+  transform: scale(1.5);
+}
+
+.education{
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-around;  
+  height: auto;
+}
+
+.education h1{
+  font-size: 2.4rem; 
+  color: #2d39a0;
+  text-decoration: underline;
+  text-shadow: -10px 10px 20px #2d39a0;
+}
+
+.education-card{
+  padding-left: 30px;
+  margin-left: 6px;
+  border-left: #BA1200 solid 3px;
+  line-height: 60px;
+}
