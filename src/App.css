@@ -265,60 +265,88 @@ header{
 
 .skills-list{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
   margin: 40px 0px;
   min-width: 60%;
 }
 
-.skill{
+.prog, .soft{
+  max-width: 500px;
+  min-width: 300px;
+}
+
+.prog .skill, .soft .skill{
   display: flex;
   flex-direction: column;
-  margin: 40px 0px;
+  margin: 20px 0px;
   width: 100%;
 }
 
-.skill .level-bar{
+.prog .skill .level-bar, .soft .skill .level-bar{
   height: 5px;
   background: #6320EE;
   display: flex;
   justify-content: flex-start;
 }
 
-.skill:nth-child(1) .level-bar .level{
+.prog .skill:nth-child(2) .level-bar .level{
   height: 100%;
   background: #BA1200;
   width: 91%;
 }
 
-.skill:nth-child(2) .level-bar .level{
+.prog .skill:nth-child(3) .level-bar .level{
   height: 100%;
   background: #BA1200;
   width: 82%;
 }
 
-.skill:nth-child(3) .level-bar .level{
+.prog .skill:nth-child(4) .level-bar .level{
   height: 100%;
   background: #BA1200;
   width: 65%;
 }
 
-.skill:nth-child(4) .level-bar .level{
+.prog .skill:nth-child(5) .level-bar .level{
   height: 100%;
   background: #BA1200;
   width: 59%;
 }
 
-.skill:nth-child(5) .level-bar .level{
+.prog .skill:nth-child(6) .level-bar .level{
   height: 100%;
   background: #BA1200;
   width: 55%;
 }
 
-.skill:nth-child(6) .level-bar .level{
+.prog .skill:nth-child(7) .level-bar .level{
   height: 100%;
   background: #BA1200;
   width: 40%;
 }
 
+.prog .skill:nth-child(8) .level-bar .level{
+  height: 100%;
+  background: #BA1200;
+  width: 22%;
+}
 
+.prog .skill:nth-child(9) .level-bar .level{
+  height: 100%;
+  background: #BA1200;
+  width: 19%;
+}
+
+.soft .skill:nth-child(2) .level-bar .level{
+  height: 100%;
+  background: #BA1200;
+  width: 80%;
+}
+
+.soft .skill:nth-child(3) .level-bar .level{
+  height: 100%;
+  background: #BA1200;
+  width: 80%;
+}
 /*redux----------hooks----------*/

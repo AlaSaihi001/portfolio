@@ -135,68 +135,82 @@ function App() {
       <section className="skills" id="skills">
         <h1>My Skills</h1>
         <div className="skills-list">
-          <div className="skill">
-            <h4>
-              <i className="fa-brands fa-html5"></i> HTML
-            </h4>
-            <div className="level-bar">
-              <div className="level"></div>
+          <div className="prog">
+            <h2>Coding Skills</h2>
+            <div className="skill">
+              <h4>
+                <i className="fa-brands fa-html5"></i> HTML
+              </h4>
+              <div className="level-bar">
+                <div className="level"></div>
+              </div>
+            </div>
+            <div className="skill">
+              <h4>
+                <i className="fa-brands fa-css3-alt"></i> CSS
+              </h4>
+              <div className="level-bar">
+                <div className="level"></div>
+              </div>
+            </div>
+            <div className="skill">
+              <h4>
+                <i className="fa-brands fa-react"></i> ReactJS
+              </h4>
+              <div className="level-bar">
+                <div className="level"></div>
+              </div>
+            </div>
+            <div className="skill">
+              <h4>
+                <i className="fa-brands fa-js"></i> JavaScript
+              </h4>
+              <div className="level-bar">
+                <div className="level"></div>
+              </div>
+            </div>
+            <div className="skill">
+              <h4>
+                <i className="fa-brands fa-bootstrap"></i> Bootstrap
+              </h4>
+              <div className="level-bar">
+                <div className="level"></div>
+              </div>
+            </div>
+            <div className="skill">
+              <h4>
+                <i className="fa-brands fa-java"></i> Java
+              </h4>
+              <div className="level-bar">
+                <div className="level"></div>
+              </div>
+            </div>
+            <div className="skill">
+              <h4>C++</h4>
+              <div className="level-bar">
+                <div className="level"></div>
+              </div>
+            </div>
+            <div className="skill">
+              <h4>C</h4>
+              <div className="level-bar">
+                <div className="level"></div>
+              </div>
             </div>
           </div>
-          <div className="skill">
-            <h4>
-              <i className="fa-brands fa-css3-alt"></i> CSS
-            </h4>
-            <div className="level-bar">
-              <div className="level"></div>
+          <div className="soft">
+            <h2>Soft Skills</h2>
+            <div className="skill">
+              <h4>Communication</h4>
+              <div className="level-bar">
+                <div className="level"></div>
+              </div>
             </div>
-          </div>
-          <div className="skill">
-            <h4>
-              <i className="fa-brands fa-react"></i> ReactJS
-            </h4>
-            <div className="level-bar">
-              <div className="level"></div>
-            </div>
-          </div>
-          <div className="skill">
-            <h4>
-              <i className="fa-brands fa-js"></i> JavaScript
-            </h4>
-            <div className="level-bar">
-              <div className="level"></div>
-            </div>
-          </div>
-          <div className="skill">
-            <h4>
-              <i className="fa-brands fa-bootstrap"></i> Bootstrap
-            </h4>
-            <div className="level-bar">
-              <div className="level"></div>
-            </div>
-          </div>
-          <div className="skill">
-            <h4>
-              <i className="fa-brands fa-java"></i> Java
-            </h4>
-            <div className="level-bar">
-              <div className="level"></div>
-            </div>
-          </div>
-          <div className="skill">
-            <h4>
-              <i className="fa-brands fa-java"></i> C++
-            </h4>
-            <div className="level-bar">
-              <div className="level"></div>
-            </div>
-          </div>
-          <div className="skill">
-            <h4>
-              <i className="fa-brands fa-java"></i> C
-            </h4>
-            <div className="level-bar">
-              <div className="level"></div>
+            <div className="skill">
+              <h4>Communication</h4>
+              <div className="level-bar">
+                <div className="level"></div>
+              </div>
             </div>
           </div>
         </div>
