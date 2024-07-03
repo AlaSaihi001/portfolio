@@ -7,14 +7,15 @@
 }
 
 body{
-  background: #08090A;
+  background: #0e0f11 ;
 }
 
 header{
-  margin: 30px 0;
+  margin: 30px 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   font-size: 1.4rem;
 }
 
@@ -27,27 +28,21 @@ header{
 .navbar{
   display: flex;
   list-style: none;
-  gap: 35px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5%;
 }
 
 .navbar li {
   padding: 10px 15px;
+  margin-bottom: 20px;
   border: none;
   border-radius: 7px;
   transition: 0.3s ease-in-out;
-  border-bottom: 4px solid #08090A;
-  /*border-left: 2px solid #08090A;
-  border-right: 2px solid #08090A;
-  border-top: 1px solid #08090A;*/
-}
+  border-bottom: 4px solid #08090A;}
 
 .navbar li:hover {
   border-bottom: 4px solid #BA1200;
-  /*border-left: 2px solid #BA1200;
-  border-right: 2px solid #BA1200;
-  border-top: 1px solid #BA1200;*/
-  /*background: #BA1200;
-  box-shadow: 0 0 60px #BA1200;*/
 }
 
 .navbar li a{
@@ -82,10 +77,12 @@ header{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   gap: 50px;
-  height: 90vh;
+  height: auto;
   margin: auto;
   padding: 0 100px;
+  margin-top: 50px;
 }
 
 .description{
@@ -126,7 +123,7 @@ header{
 }
 
 .first-content {
-  background: url(../public/photo\ de\ profil.png) center center/cover;
+  background: url(/photo\ de\ profil.png) center center/cover;
   height: 100%;
   width: 100%;
   transition: all 0.3s ease-in;
@@ -171,9 +168,9 @@ header{
 }
 
 .education{
-  padding: 100px 0;
+  padding: 100px 15%;
   display: flex;
-  justify-content: space-around;  
+  flex-direction: column;
   height: auto;
 }
 
@@ -182,6 +179,7 @@ header{
   color: #2d39a0;
   text-decoration: underline;
   text-shadow: -10px 10px 20px #2d39a0;
+  margin-bottom: 40px;
 }
 
 .education-card{
@@ -190,3 +188,137 @@ header{
   border-left: #BA1200 solid 3px;
   line-height: 60px;
 }
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 15%;
+}
+
+.projects h1{
+  margin-bottom: 50px;
+}
+
+.project{
+  width: 40%;
+  height: 300px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  border-radius: 20px;
+  border: 0;
+  transition: all 0.3s ease;
+}
+
+.project:hover{ 
+  transform: scale(1.1);
+  box-shadow: 0 0 40px #BA1200  ;
+}
+
+.projects h1{
+  font-size: 2.4rem; 
+  color: #2d39a0;
+  text-decoration: underline;
+  text-shadow: -10px 10px 20px #2d39a0;
+}
+
+.project-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+}
+
+.project img{ 
+  width: 100%;
+  height: 65%;
+  border-radius: 20px 20px 0 0;
+  transition: all 0.3s ease;
+}
+
+.project .desc{
+  padding-bottom: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap :40px;
+}
+
+.skills h1{
+  font-size: 2.4rem; 
+  color: #2d39a0;
+  text-decoration: underline;
+  text-shadow: -10px 10px 20px #2d39a0;
+}
+
+.skills-list{
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0px;
+  min-width: 60%;
+}
+
+.skill{
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0px;
+  width: 100%;
+}
+
+.skill .level-bar{
+  height: 5px;
+  background: #6320EE;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.skill:nth-child(1) .level-bar .level{
+  height: 100%;
+  background: #BA1200;
+  width: 91%;
+}
+
+.skill:nth-child(2) .level-bar .level{
+  height: 100%;
+  background: #BA1200;
+  width: 82%;
+}
+
+.skill:nth-child(3) .level-bar .level{
+  height: 100%;
+  background: #BA1200;
+  width: 65%;
+}
+
+.skill:nth-child(4) .level-bar .level{
+  height: 100%;
+  background: #BA1200;
+  width: 59%;
+}
+
+.skill:nth-child(5) .level-bar .level{
+  height: 100%;
+  background: #BA1200;
+  width: 55%;
+}
+
+.skill:nth-child(6) .level-bar .level{
+  height: 100%;
+  background: #BA1200;
+  width: 40%;
+}
+
+
+/*redux----------hooks----------*/

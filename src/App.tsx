@@ -14,13 +14,13 @@ function App() {
               <a href="#education">Educations</a>
             </li>
             <li>
-              <a href="#">Certifications</a>
+              <a href="#certification">Certifications</a>
             </li>
             <li>
-              <a href="">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="">Skills</a>
+              <a href="#skills">Skills</a>
             </li>
             <li>
               <a href="">Contact</a>
@@ -76,6 +76,128 @@ function App() {
           <div className="education-card">
             <h2>Kasserine High School, Tunisia</h2>
             <h3>High School Degree, Mathematics Section | 09/2021 - 06/2022</h3>
+          </div>
+        </div>
+      </section>
+
+      <section className="education" id="certification">
+        <h1>Certifications</h1>
+        <div>
+          <i className="fa-solid fa-circle"></i>
+          <div className="education-card">
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+          <i className="fa-solid fa-circle"></i>
+          <div className="education-card">
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+        </div>
+      </section>
+
+      <section className="projects" id="projects">
+        <h1>My Recent Works</h1>
+        <div className="project-list">
+          <div className="project">
+            <img src="/todolist.png" alt="" />
+            <div className="desc">
+              <h2>To-Do-List</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab,
+                quo!
+              </p>
+            </div>
+          </div>
+          <div className="project">
+            <img src="/calcul.png" alt="" />
+            <div className="desc">
+              <h2>Calculator-App</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab,
+                quo!
+              </p>
+            </div>
+          </div>
+          <div className="project">
+            <img src="/rizervini.png" alt="" />
+            <div className="desc">
+              <h2>Rizervini</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab,
+                quo!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="skills" id="skills">
+        <h1>My Skills</h1>
+        <div className="skills-list">
+          <div className="skill">
+            <h4>
+              <i className="fa-brands fa-html5"></i> HTML
+            </h4>
+            <div className="level-bar">
+              <div className="level"></div>
+            </div>
+          </div>
+          <div className="skill">
+            <h4>
+              <i className="fa-brands fa-css3-alt"></i> CSS
+            </h4>
+            <div className="level-bar">
+              <div className="level"></div>
+            </div>
+          </div>
+          <div className="skill">
+            <h4>
+              <i className="fa-brands fa-react"></i> ReactJS
+            </h4>
+            <div className="level-bar">
+              <div className="level"></div>
+            </div>
+          </div>
+          <div className="skill">
+            <h4>
+              <i className="fa-brands fa-js"></i> JavaScript
+            </h4>
+            <div className="level-bar">
+              <div className="level"></div>
+            </div>
+          </div>
+          <div className="skill">
+            <h4>
+              <i className="fa-brands fa-bootstrap"></i> Bootstrap
+            </h4>
+            <div className="level-bar">
+              <div className="level"></div>
+            </div>
+          </div>
+          <div className="skill">
+            <h4>
+              <i className="fa-brands fa-java"></i> Java
+            </h4>
+            <div className="level-bar">
+              <div className="level"></div>
+            </div>
+          </div>
+          <div className="skill">
+            <h4>
+              <i className="fa-brands fa-java"></i> C++
+            </h4>
+            <div className="level-bar">
+              <div className="level"></div>
+            </div>
+          </div>
+          <div className="skill">
+            <h4>
+              <i className="fa-brands fa-java"></i> C
+            </h4>
+            <div className="level-bar">
+              <div className="level"></div>
+            </div>
           </div>
         </div>
       </section>
